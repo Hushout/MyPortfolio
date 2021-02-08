@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="background-contact">
     <form id="my-form" className="form" onSubmit={handleSubmit}>
       <div className="title-contact">
-        <h1>Contact Us </h1><p>🤳</p>
+        <h1>Contact Me </h1><p>🤳</p>
     </div>  
       
 
