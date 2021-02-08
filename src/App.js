@@ -6,6 +6,7 @@ import Footer from './component/Footer';
 import Contact from "./component/Contact";
 import { motion } from "framer-motion";
 import HeroSection from './component/HeroSection';
+import About from "./component/About";
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
         <Route path='/' exact />
       </Switch>
       <HeroSection />
-      <div className="Big--container">
-      <motion.div className="footer-subscription" initial="hidden" animate="visible" variants={{
+      <motion.div className="Big--container" initial="hidden" animate="visible" variants={{
         hidden :{
           scale: .8,
           opacity: 0
@@ -30,9 +30,9 @@ function App() {
           }
         },
       }}>
+      <About />
       <Contact />
       </motion.div>
-      </div>
      <Footer />
     </Router>
       

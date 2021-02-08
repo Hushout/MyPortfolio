@@ -11,7 +11,7 @@ function HeroSection() {
       <h1>Ready to meet me ?</h1>
       <p>Scroll down else there are direct links if you're not 😊</p>
       <div className='hero-btns'>
-        <form method="get" action="file.doc" id="formCv">
+        <form method="get" action={process.env.PUBLIC_URL + '/docs/CV_2021-02-08_Anh_Cao.pdf'} id="formCv">
         <Button
           type="submit"
           className='btns'
@@ -28,7 +28,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH MY PRESENTATION<i className='far fa-play-circle' />
+          WATCH MY PRESENTATION
         </Button>
         </div>
         <Social /> 

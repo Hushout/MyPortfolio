@@ -28,7 +28,7 @@ html, body, #contact-info {
 
 #contact-info .links {
   display: flex;
-  min-width: 425px;
+  min-width: 380px;
   justify-content: space-between;
 }
 
@@ -69,8 +69,8 @@ html, body, #contact-info {
 #contact-info .links a div {
   position: relative;
   display: block;
-  width: 55px; 
-  height: 55px;
+  width: 45px; 
+  height: 45px;
   transition: transform .3s;
 }
 

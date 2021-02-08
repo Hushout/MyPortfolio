@@ -1,0 +1,38 @@
+:root{
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+  }
+  .about-section{
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 10%;
+    background-color:#242424;
+    width: 400px;
+    height: 600px;
+    color: whitesmoke;
+    
+  }
+.about__container{
+    row-gap: 2rem;
+  }
+  .about__container bd-grid{
+    
+    width: 300px;
+  }
+  .about__subtitle{
+    margin-bottom: var(--mb-2);
+  }
+  .about__img img{
+    width: 200px;
+    height: auto;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+  }
