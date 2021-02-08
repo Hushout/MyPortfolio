@@ -13,9 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  
-    margin-bottom: 24px;
-    padding: 24px;
+    padding: 25px;
     color: #fff;
   }
 
@@ -139,6 +137,10 @@
   .social-logo img{
     margin-top:15px;
   }
+
+  .smalllogo {
+    display: none;
+  }
   
   .website-rights {
     color: #fff;
@@ -168,4 +170,14 @@
   }
   
   @media screen and (max-width: 768px) {
+    .hidden-Social{
+      display: none;
+    }
+    .biglogo{
+      display:none;
+    }
+
+    .smalllogo {
+      display: flex;
+    }
   }

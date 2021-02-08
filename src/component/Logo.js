@@ -1,6 +1,5 @@
 import React from 'react'
 import './Logo.scss'
-import logo from './icon.png';
 
 function Logo() {
     return (
@@ -14,7 +13,7 @@ function Logo() {
                 <li class="c-rainbow__layer c-rainbow__layer--green">Hushbox</li>
                 <li class="c-rainbow__layer c-rainbow__layer--yellow">Hushbox</li>
             </ul>
-            <img src={logo} alt="logo" height="50px"/>
+            <img src={process.env.PUBLIC_URL + '/images/icon.png'} height="50px" />
         </div>
 
     )

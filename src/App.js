@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 import Footer from './component/Footer';
 import Contact from "./component/Contact";
 import { motion } from "framer-motion";
+import HeroSection from './component/HeroSection';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Switch>
         <Route path='/' exact />
       </Switch>
+      <HeroSection />
+      <div className="Big--container">
       <motion.div className="footer-subscription" initial="hidden" animate="visible" variants={{
         hidden :{
           scale: .8,
@@ -29,8 +32,8 @@ function App() {
       }}>
       <Contact />
       </motion.div>
-     
-      <Footer />
+      </div>
+     <Footer />
     </Router>
       
     </>

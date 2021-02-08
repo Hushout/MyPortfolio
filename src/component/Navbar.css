@@ -77,13 +77,17 @@
   .menu-icon {
     display: none;
   }
+
+  .hiddeniftoobig{
+    display: none;
+  }
   @media screen and (max-width: 1350px) {
-      .hiddeniftoobig{
-        display: none;
-      }
   }
 
   @media screen and (max-width: 960px) {
+    .hiddeniftoobig{
+      display: flex;
+    }
     .NavbarItems {
       position: relative;
     }

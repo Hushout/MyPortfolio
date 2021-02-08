@@ -151,5 +151,5 @@ html, body, #contact-info {
   border-color: #CF52EB;
 }
 .links a.orange-border span:nth-child(5) {
-  border-color: #D14B3D;
+  background: orangered;
 }

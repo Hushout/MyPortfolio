@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom';
-import logo from './icon.png';
 import Logo from './Logo'
 import Social from './Social'
 import { Button } from './Button'
@@ -30,11 +29,18 @@ function Footer() {
                         <div className="social-media-wrap">
                             <div className="footer-logo">
                                 <Link to='/' className="social-logo">
-                                   <img src={logo} alt="logo" height='70px'/>
+                                    <div className="biglogo">
+                                <img src={process.env.PUBLIC_URL + '/images/icon.png'} height="70px" />
+                                </div>
+                                <div className="smalllogo">
+                                <img src={process.env.PUBLIC_URL + '/images/icon1.png'}height="200px" />
+                                </div>
                                 </Link>
                             </div>
                             <small className="website-rights"></small>
+                            <div className="hidden-Social">
                             <Social /> 
+                            </div>
                         </div>
                     </section>
                     </div>

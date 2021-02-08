@@ -36,6 +36,7 @@ const Contact = () => {
   };
 
   return (
+     <div className="Contact--container">
       <div className="background-contact">
     <form id="my-form" className="form" onSubmit={handleSubmit}>
       <div className="title-contact">
@@ -72,6 +73,7 @@ const Contact = () => {
       <Button  buttonStyle='glow-on-hover' type="submit" form="my-form">Submit</Button>
     </form>
     </div>
+    </div> 
   );
 };
 
