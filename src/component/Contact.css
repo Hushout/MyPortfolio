@@ -1,4 +1,8 @@
-/* Contact.js */
+
+.Contact--container{
+  padding-bottom: 20px;
+}
+
 .form {
     height: 500px;
     display: flex;

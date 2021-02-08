@@ -24,3 +24,15 @@
     /* background-color: #007878;
     background-image: linear-gradient(225deg, #007878 0%, #007878 50%, #18a890 100%); */
   }
+
+  @media screen and (max-width: 1350px) {
+    .Big--container{
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+  }

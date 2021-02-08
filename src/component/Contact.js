@@ -3,6 +3,7 @@ import "../App.css";
 import { db } from "../firebase";
 import './Contact.css'
 import { Button } from './Button'
+import Bounce from 'react-reveal/Bounce';
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -36,6 +37,8 @@ const Contact = () => {
   };
 
   return (
+    <div>
+      <Bounce left>
      <div className="Contact--container">
       <div className="background-contact">
     <form id="my-form" className="form" onSubmit={handleSubmit}>
@@ -74,6 +77,8 @@ const Contact = () => {
     </form>
     </div>
     </div> 
+    </Bounce>
+    </div>
   );
 };
 

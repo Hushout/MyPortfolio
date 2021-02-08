@@ -1,10 +1,13 @@
 import React, { PureComponent } from 'react'
 import './About.scss'
+import { motion } from "framer-motion";
+import Bounce from 'react-reveal/Bounce';
 
 export class About extends PureComponent {
     render() {
         return (
-            <div>
+            <motion.div className="animated" initial="hidden" animate="visible" variants={{}}>
+                <Bounce right>
                 <section class="about-section" id="about">
                     <div><h1 class="section-title">About Me</h1></div>
                     <div class="about__container-bd-grid">
@@ -17,7 +20,8 @@ export class About extends PureComponent {
                     </div>                                   
                     </div>
                 </section>
-            </div>
+                </Bounce>
+            </motion.div>
            
         )
     }
