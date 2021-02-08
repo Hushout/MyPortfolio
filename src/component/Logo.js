@@ -6,13 +6,13 @@ function Logo() {
     return (
         <div className="logo-container">
             <ul class="c-rainbow">
-                <li class="c-rainbow__layer c-rainbow__layer--white">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--orange">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--red">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--violet">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--blue">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--green">Lam</li>
-                <li class="c-rainbow__layer c-rainbow__layer--yellow">Lam</li>
+                <li class="c-rainbow__layer c-rainbow__layer--white">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--orange">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--red">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--violet">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--blue">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--green">Hushbox</li>
+                <li class="c-rainbow__layer c-rainbow__layer--yellow">Hushbox</li>
             </ul>
             <img src={logo} alt="logo" height="50px"/>
         </div>
