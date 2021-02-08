@@ -6,23 +6,10 @@ import Logo from './Logo'
 import Social from './Social'
 import { Button } from './Button'
 
+
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className="footer-subscription">
-                <p className='footer-subscription-heading'>
-                    Send me message ! 
-                </p>
-                <p className="footer-subscription-text">
-                    please enter your email first
-                </p>
-                <div className="input-areas">
-                    <form action="">
-                        <input type="email" name='email' placeholder="Your Email" className="footer-input"/>
-                        <Button buttonStyle='glow-on-hover'>MSG go !</Button>
-                    </form>
-                </div>
-            </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
