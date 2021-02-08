@@ -31,6 +31,7 @@ function App() {
         },
       }}>
       <About />
+      <img src={process.env.PUBLIC_URL + '/images/Me.png'} height="600px" />
       <Contact />
       </motion.div>
      <Footer />

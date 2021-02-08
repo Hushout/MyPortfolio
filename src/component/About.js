@@ -5,8 +5,8 @@ export class About extends PureComponent {
     render() {
         return (
             <div>
-                <section class="about-section " id="about">
-                    <h2 class="section-title">About</h2>
+                <section class="about-section" id="about">
+                    <div><h1 class="section-title">About Me</h1></div>
                     <div class="about__container-bd-grid">
                     <div class="about__img">
                         <img src={process.env.PUBLIC_URL + '/images/icon.png'} height="50px" />
