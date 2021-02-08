@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   }
   .title-contact {
       display: flex;
@@ -53,4 +54,10 @@
     font-weight: bold;
   }
 
+  .background-contact{
+    background-color: #242424;
+    border-radius: 30px;
+    height: 550px;
+    width: 350px;
+  }
   
