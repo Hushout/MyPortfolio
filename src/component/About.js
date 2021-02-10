@@ -15,7 +15,7 @@ export class About extends PureComponent {
                         <img src={process.env.PUBLIC_URL + '/images/icon.png'} height="50px" />
                     </div>
                     <div class="about__txt">
-                        <h2 class="about__subtitle">I'am Marlon</h2>
+                        <h2 class="about__subtitle">I'am Lam</h2>
                         <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
                     </div>                                   
                     </div>
