@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <img src={process.env.PUBLIC_URL + '/images/HeroBckgrnd.jpg'} /> 
-      <h1>I Want to build more APP !</h1>
+      <h1>I want to build more APP !</h1>
       <p>Here are my CV and Video Presentation :</p>
       <div className='hero-btns'>
         <form method="get" action={process.env.PUBLIC_URL + '/docs/CV-CAO-Anh.pdf'} id="formCv">
@@ -24,7 +24,7 @@ function HeroSection() {
         </form>
         <Button
           className='btns'
-          buttonStyle='btn--primary'
+          buttonStyle='btn--outline'
           buttonSize='btn--large'
           onClick={alert("Comming soon !")}
         >
